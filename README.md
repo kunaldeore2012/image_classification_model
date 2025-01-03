@@ -10,7 +10,7 @@ This project demonstrates a deep learning model for classifying images from the 
 ## 📂 Dataset
 The CIFAR-10 dataset contains 60,000 32x32 color images in 10 classes. The dataset is preloaded in TensorFlow/Keras.
 
-#🛠️ Technologies
-Python
-TensorFlow/Keras
-Matplotlib (for plotting)
+##🛠️ Technologies
+-Python
+-TensorFlow/Keras
+-Matplotlib (for plotting)
