@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load the model
-model = load_model("C:\\Users\\HP\\Desktop\\1st project\\image_classification_model.keras")
+model = load_model("C:\\Users\\HP\\Desktop\\1st project\\image_classification_model.keras") # download the model and change the path
 print("Model loaded successfully.")
 
 # Class names (CIFAR-10 labels)
@@ -53,5 +53,5 @@ def predict_image(image_url):
         if os.path.exists(temp_image_path):
             os.remove(temp_image_path)
 
-# Example usage
+# Example usage , replace your image url below
 predict_image("https://imgs.search.brave.com/qO-0d9c0lU7vhvjA8sPu644-A2tujw9-6M5wcxpOcJI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzIwLzczLzQy/LzM2MF9GXzMyMDcz/NDIxNF84cndWR0U2/VUh0TjJXakVrcGJh/dmVkaUpaMnFrZFBX/Yi5qcGc")
