@@ -14,4 +14,3 @@ The CIFAR-10 dataset contains 60,000 32x32 color images in 10 classes. The datas
 Python
 TensorFlow/Keras
 Matplotlib (for plotting)
- 
