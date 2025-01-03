@@ -1,16 +1,18 @@
-# image_classification_model
-This project demonstrates a deep learning model for classifying images from the CIFAR-10 dataset. It showcases the use of data augmentation, model fine-tuning, and performance analysis.
+# Image Classification Model
+
+This project demonstrates a deep learning model for classifying images from the CIFAR-10 dataset. It includes techniques such as data augmentation, model fine-tuning, and performance evaluation.
 
 ## 🚀 Features
-- Image classification using CNN
-- Data augmentation to enhance generalization
-- Model fine-tuning for improved accuracy
-- Achieved 76.22% test accuracy
+- Image classification using a Convolutional Neural Network (CNN)
+- Data augmentation to improve generalization
+- Model fine-tuning for enhanced accuracy
+- Achieved a test accuracy of 76.22%
 
 ## 📂 Dataset
-The CIFAR-10 dataset contains 60,000 32x32 color images in 10 classes. The dataset is preloaded in TensorFlow/Keras.
+The CIFAR-10 dataset consists of 60,000 32x32 color images categorized into 10 classes. The dataset is readily available in TensorFlow/Keras.
 
-##🛠️ Technologies
--Python
--TensorFlow/Keras
--Matplotlib (for plotting)
+## 🛠️ Technologies
+- **Python**
+- **TensorFlow/Keras**
+- **Matplotlib** (for visualizing results)
+
